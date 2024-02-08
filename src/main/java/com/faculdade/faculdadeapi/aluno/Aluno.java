@@ -30,4 +30,18 @@ public class Aluno {
         this.email = dados.email();
     }
 
+    public void atualizarInformacoes(DadosAtualizacaoAluno dados) {
+        if (dados.nome() != null) {
+            this.nome = dados.nome();
+        }
+
+        if (dados.matricula() != null) {
+            this.matricula = dados.matricula();
+        }
+
+        if (dados.email() != null) {
+            this.email = dados.email();
+        }
+    }
+
 }
