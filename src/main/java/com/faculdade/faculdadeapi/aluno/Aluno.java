@@ -22,10 +22,9 @@ public class Aluno {
     private String nome;
     private String matricula;
     private String email;
-    private Boolean ativo;
+    // private Boolean ativo;
 
     public Aluno(DadosCadastroAluno dados) {
-        this.ativo = true;
         this.nome = dados.nome();
         this.matricula = dados.matricula();
         this.email = dados.email();
